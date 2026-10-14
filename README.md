@@ -8,12 +8,15 @@ statistics on travel times, popular stations, trip durations and user types.
 
 ## Information about how to use your project
 
-This could include:
+Requirements: Python 3 with the libraries pandas and numpy.
 
-- Step-by-step instructions for installing or setting up your project.
-- Any software dependencies that need to be installed.
-- Instructions and examples for how to use your project, including any helpful code snippets.
-- Common issues and troubleshooting tips
+Run the script in the terminal:
+
+```
+python bikeshare.py
+```
+
+Then follow the prompts to choose a city, month and day.
 
 ## Contribution guidelines
 
