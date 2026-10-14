@@ -17,7 +17,10 @@ python bikeshare.py
 ```
 
 Then follow the prompts to choose a city, month and day.
+## Files used
 
+- `bikeshare.py` - Python script for the data analysis
+- `new_york_city.csv` - bike share data (not tracked, listed in `.gitignore`)
 ## Contribution guidelines
 
 If you welcome contributions, provide guidelines on how others can contribute to your project.
@@ -28,4 +31,4 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ## Date created
 
-Include the date you created this project and README file.
+October 14, 2026
