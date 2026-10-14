@@ -25,7 +25,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
 
-    print('-'*40)
+    print('-' * 40)
     return city, month, day
 
 
@@ -60,8 +60,8 @@ def time_stats(df):
     # display the most common start hour
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(f"\nThis took {time.time() - start_time} seconds.")
+    print('-' * 40)
 
 
 def station_stats(df):
@@ -79,8 +79,8 @@ def station_stats(df):
     # display most frequent combination of start station and end station trip
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(f"\nThis took {time.time() - start_time} seconds.")
+    print('-' * 40)
 
 
 def trip_duration_stats(df):
@@ -95,8 +95,8 @@ def trip_duration_stats(df):
     # display mean travel time
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(f"\nThis took {time.time() - start_time} seconds.")
+    print('-' * 40)
 
 
 def user_stats(df):
@@ -114,8 +114,8 @@ def user_stats(df):
     # Display earliest, most recent, and most common year of birth
 
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
-    print('-'*40)
+    print(f"\nThis took {time.time() - start_time} seconds.")
+    print('-' * 40)
 
 
 def main():
@@ -130,7 +130,7 @@ def main():
         user_stats(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
-        if restart.lower() != 'yes':
+            if restart.strip().lower() != 'yes':
             break
 
 
